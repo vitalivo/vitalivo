@@ -33,8 +33,8 @@ This project showcases a multi-service architecture with real-time tracking.
 #### 2. 🚀 TASK MANAGER: Real-Time Tasks & Telegram Bot (Async Monolith)
 
 A full-stack solution featuring real-time UI updates and integration with external platforms.
-* **Tech Focus:** **Django Channels** (WebSockets), **Celery/Celery Beat** (Scheduled tasks), **Aiogram** (Telegram Bot), and full **Docker** containerization.
-* **Status:** Private repository (IP protection). **Live Demo URL available upon request.**
+Tech Focus: Django Channels (WebSockets), Celery/Celery Beat (Scheduled tasks), Aiogram (Telegram Bot), and full Docker containerization.
+View Code on GitHub ⬅️ Public Repository
 
 ---
 
