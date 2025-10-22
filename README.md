@@ -1,48 +1,72 @@
-# 👋 Hello! I'm Vitaliy (vitalivo)
+# 👋 Hi, I'm Vitaliy (vitalivo)
 
-## 🌐 **Portfolio & Live Demos:** [https://vitaly-portfolio-full-st-git-2d0910-vitalivo-gmailcoms-projects.vercel.app](https://vitaly-portfolio-full-st-git-2d0910-vitalivo-gmailcoms-projects.vercel.app)
+🚀 **Python Backend Engineer | FastAPI / Django / Kafka / Docker**  
+I build high-performance backend systems that help businesses automate, scale, and operate in real time.
 
-## 💻 Python Backend Engineer | Focus on Scalable & Real-Time Systems
-
-I build robust, high-performance backends for distributed applications. Available for **remote contract work** and **freelance projects** requiring reliable system design and data integrity.
-
----
-
-### 🔥 Core Technical Stack
-
-| Category | Focus Area & Key Concepts |
-| :--- | :--- |
-| **Backend & Async** | **FastAPI (ASGI)**, Asynchronous Programming (**Asyncio, Coroutines**), Django/DRF, REST API design. |
-| **Data Streaming** | **Apache Kafka** (Consumer Groups, Partitions), ensuring **Exactly Once** delivery via **Idempotency** and DLQ mechanisms. |
-| **Databases** | **PostgreSQL** (WAL, CDC), Advanced SQL for analytics (**CTE, Window Functions**), Optimizing Django ORM performance (**N+1** resolution). |
-| **DevOps & Containers** | **Docker** and **Docker Compose** for multi-service environments, ASGI/WSGI deployment strategies (Uvicorn/Gunicorn). |
-| **Architecture** | Microservices, Event-Driven Patterns, **SOLID** principles, and **ACID** transaction guarantees. |
+📍 Remote / Worldwide  
+📧 vitalivo@gmail.com | 💬 Telegram: [@vitalivo](https://t.me/vitalivo) | 🌐 [Portfolio & Live Demos](https://vitaly-portfolio-full-st-git-2d0910-vitalivo-gmailcoms-projects.vercel.app)
 
 ---
 
-### 💡 Portfolio Highlights (Demonstrated Practical Experience)
+## 💡 What I Do
 
-I specialize in moving projects from development to a containerized, production-ready state.
+I specialize in **scalable backend architecture**, **real-time systems**, and **AI-ready integrations**.  
+I help startups and tech teams turn prototypes into **production-ready microservices**.
 
-#### 1. 🚗 FleetTrack: Real-Time Fleet Management (Microservices)
-
-This project showcases a multi-service architecture with real-time tracking.
-* **Tech Focus:** **FastAPI**, **Kafka** (Event-Driven), **Django**, **React**, and a complex **Docker Compose** setup for five+ services.
-* **[View Code on GitHub](https://github.com/vitalivo/fleettrack)** ⬅️ **Public Repository**
-
-#### 2. 🚀 TASK MANAGER: Real-Time Tasks & Telegram Bot (Async Monolith)
-
-A full-stack solution featuring real-time UI updates and integration with external platforms.
-* **Tech Focus:** **Django Channels** (WebSockets), **Celery/Celery Beat** (Scheduled tasks), **Aiogram** (Telegram Bot), and full **Docker** containerization.
-* **[View Code on GitHub](https://github.com/vitalivo/task_manager_telegram)** ⬅️ **Public Repository**
+| Area | Skills |
+|------|--------|
+| **Backend / Async** | FastAPI, Django/DRF, asyncio, Celery, Channels, REST APIs |
+| **Streaming / Messaging** | Apache Kafka, Redis Streams, event-driven design |
+| **Databases** | PostgreSQL (CTE, indexing, query tuning), SQLite |
+| **DevOps** | Docker, Docker Compose, CI/CD (GitHub Actions, Render, Vercel) |
+| **Frontend (basic)** | React, Next.js, TypeScript, Bootstrap |
 
 ---
 
-### 📞 Let's Connect!
+## 🧱 Featured Projects
 
-I am actively seeking quick-start contracts and long-term project opportunities.
+### 🚗 FleetTrack — Real-Time Fleet Management (Microservices)
+**Stack:** FastAPI, Kafka, Django, React, Docker Compose  
+Real-time fleet tracking system with distributed microservices.
 
-* **Email:** Vitalivo@gmail.com
-* **LinkedIn:** [vitaily-voloshin-07356983](https://www.linkedin.com/in/vitaily-voloshin-07356983)
-* **Telegram:** [@vitalivo](https://t.me/vitalivo)
-* **Location:** Remote / Worldwide
+🔹 Event-driven communication via Kafka  
+🔹 WebSocket updates for live dashboards  
+🔹 Multi-service orchestration via Docker  
+📂 [View Repository](https://github.com/vitalivo/fleettrack)
+
+---
+
+### ✅ Task Manager — Real-Time Tasks + Telegram Bot
+**Stack:** Django, DRF, Channels, Celery, Redis, Aiogram, Docker  
+Full-stack app for team task management with instant updates and Telegram integration.
+
+🔹 Real-time synchronization via WebSockets  
+🔹 Celery Beat for scheduled notifications  
+🔹 Secure bot tokens and JWT auth  
+📂 [View Repository](https://github.com/vitalivo/task_manager_telegram)
+
+---
+
+## 🧠 What I Can Deliver
+- Design & deploy **microservice architectures** ready for production  
+- Optimize PostgreSQL queries (N+1 resolution, index tuning)  
+- Integrate **asynchronous systems** (Celery, Kafka, Redis)  
+- Build **AI-ready APIs** (LLM/RAG integrations coming soon)  
+- Full CI/CD pipeline with Docker & GitHub Actions  
+
+---
+
+## 💬 Let's Connect
+I'm open for:
+- Freelance & contract work (short or long-term)
+- Remote backend positions
+- Collaboration on open-source AI/automation tools
+
+📧 **vitalivo@gmail.com**  
+💬 **[@vitalivo on Telegram](https://t.me/vitalivo)**  
+🌐 **[Portfolio & Demos](https://vitaly-portfolio-full-st-git-2d0910-vitalivo-gmailcoms-projects.vercel.app)**
+
+---
+
+⭐️ _"I don’t just build APIs — I build reliable systems."_  
+
