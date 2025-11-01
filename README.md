@@ -48,6 +48,7 @@ Full-stack app for team task management with instant updates and Telegram integr
 ---
 
 🏘️ RentFlow — gRPC-Integrated Lease Management (WIP)
+
 Stack: **Django/DRF**, **FastAPI**, **gRPC**, **PostgreSQL**, **Kafka**, Docker Compose
 An event-driven microservice system for managing property leases, designed for high reliability and scalability.
 
