@@ -70,7 +70,7 @@ Distributed microservices system for real-time vehicle tracking.
 
 ---
 
-### ✅ [Task Manager](https://github.com/vitalivo/taskmanager) — Real-Time Tasks + Telegram Bot
+### ✅ [Task Manager](https://github.com/vitalivo/task_manager_telegram.git) — Real-Time Tasks + Telegram Bot
 **Stack:** Django · DRF · Channels · Celery · Redis · Aiogram · Docker
 
 Full-stack task management with instant synchronization and Telegram notifications.
@@ -80,7 +80,7 @@ Full-stack task management with instant synchronization and Telegram notificatio
 - 🔹 Scheduled notifications with Celery Beat
 - 🔹 Telegram bot integration for task alerts
 
-[View Repository →](#)
+[View Repository →](https://github.com/vitalivo/task_manager_telegram.git)
 
 ---
 
