@@ -41,7 +41,7 @@ I design and build **production-ready backend systems** that scale. My focus is 
 
 ## 🧱 Featured Projects
 
-### 🏘️ [RentFlow](https://github.com/vitalivo/rentflow) — gRPC Microservices for Lease Management
+### 🏘️ [RentFlow](https://github.com/vitalivo/rentfow.git) — gRPC Microservices for Lease Management
 **Stack:** Django/DRF · FastAPI · gRPC · Kafka · PostgreSQL · Docker Compose
 
 Event-driven microservice system for property lease management with cross-service communication.
@@ -52,7 +52,7 @@ Event-driven microservice system for property lease management with cross-servic
 - ✅ **Event-driven design** using Kafka for lease lifecycle events
 - ✅ **Docker orchestration** for local and production deployment
 
-[View Repository →](https://github.com/vitalivo/rentflow)
+[View Repository →](https://github.com/vitalivo/rentfow.git)
 
 ---
 
