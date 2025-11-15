@@ -5,7 +5,7 @@
 📍 Remote / Worldwide  
 📧 vitalivo@gmail.com  
 💬 Telegram: [@vitalivo](https://t.me/vitalivo)  
-🌐 [Portfolio & Live Demos](#)
+🌐 [Portfolio & Live Demos](https://vitaly-portfolio-full-st-git-2d0910-vitalivo-gmailcoms-projects.vercel.app/en)
 
 ---
 
