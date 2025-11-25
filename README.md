@@ -56,7 +56,7 @@ Key Features:
 
 🔹 Monitoring Ready: Implemented structured logging (INFO/WARNING/ERROR) for easy monitoring.
 
-View Repository →
+View Repository → https://github.com/vitalivo/blog-backend.git
 
 🏘️ RentFlow — gRPC Microservices for Lease Management
 Stack: Django/DRF · FastAPI · gRPC · Kafka · PostgreSQL · Docker Compose
@@ -73,7 +73,7 @@ Key Features:
 
 ✅ Docker orchestration for local and production deployment
 
-View Repository →
+View Repository → https://github.com/vitalivo/rentfow.git
 
 🚗 FleetTrack — Real-Time Fleet Management
 Stack: FastAPI · Kafka · Django · React · Docker Compose
@@ -103,7 +103,7 @@ Key Features:
 
 🔹 Telegram bot integration for task alerts
 
-View Repository →
+View Repository → https://github.com/vitalivo/task_manager_telegram.git
 
 
 ## 💼 What I Deliver
