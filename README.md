@@ -41,48 +41,70 @@ I design and build **production-ready backend systems** that scale. My focus is 
 
 ## 🧱 Featured Projects
 
-### 🏘️ [RentFlow](https://github.com/vitalivo/rentfow.git) — gRPC Microservices for Lease Management
-**Stack:** Django/DRF · FastAPI · gRPC · Kafka · PostgreSQL · Docker Compose
+💻 Blog Backend API — Production-Ready Blog API (New)
+Stack: Django Ninja · PostgreSQL · Docker Compose · Unit Tests
+
+A fully tested, containerized backend API for a blog, showcasing clean architecture and production readiness standards.
+
+Key Features:
+
+🔹 Clean API Design: Built using Django Ninja for fast, standards-compliant API development.
+
+🔹 Token Authentication: Implemented custom Bearer Token authentication and fine-grained permissions (author-only CRUD).
+
+🔹 Code Reliability: Ensured quality through comprehensive Unit Testing for all critical endpoints.
+
+🔹 Monitoring Ready: Implemented structured logging (INFO/WARNING/ERROR) for easy monitoring.
+
+View Repository →
+
+🏘️ RentFlow — gRPC Microservices for Lease Management
+Stack: Django/DRF · FastAPI · gRPC · Kafka · PostgreSQL · Docker Compose
 
 Event-driven microservice system for property lease management with cross-service communication.
 
-**Key Features:**
-- ✅ **gRPC communication** between Django and FastAPI services
-- ✅ **Data synchronization** with metadata tracking across services
-- ✅ **Event-driven design** using Kafka for lease lifecycle events
-- ✅ **Docker orchestration** for local and production deployment
+Key Features:
 
-[View Repository →](https://github.com/vitalivo/rentfow.git)
+✅ gRPC communication between Django and FastAPI services
 
----
+✅ Data synchronization with metadata tracking across services
 
-### 🚗 [FleetTrack](https://github.com/vitalivo/fleettrack) — Real-Time Fleet Management
-**Stack:** FastAPI · Kafka · Django · React · Docker Compose
+✅ Event-driven design using Kafka for lease lifecycle events
+
+✅ Docker orchestration for local and production deployment
+
+View Repository →
+
+🚗 FleetTrack — Real-Time Fleet Management
+Stack: FastAPI · Kafka · Django · React · Docker Compose
 
 Distributed microservices system for real-time vehicle tracking.
 
-**Key Features:**
-- 🔹 Kafka-based event streaming for fleet updates
-- 🔹 WebSocket live dashboards
-- 🔹 Multi-service architecture with Docker
+Key Features:
 
-[View Repository →](https://github.com/vitalivo/fleettrack)
+🔹 Kafka-based event streaming for fleet updates
 
----
+🔹 WebSocket live dashboards
 
-### ✅ [Task Manager](https://github.com/vitalivo/task_manager_telegram.git) — Real-Time Tasks + Telegram Bot
-**Stack:** Django · DRF · Channels · Celery · Redis · Aiogram · Docker
+🔹 Multi-service architecture with Docker
+
+View Repository →
+
+✅ Task Manager — Real-Time Tasks + Telegram Bot
+Stack: Django · DRF · Channels · Celery · Redis · Aiogram · Docker
 
 Full-stack task management with instant synchronization and Telegram notifications.
 
-**Key Features:**
-- 🔹 Real-time updates via WebSockets (Django Channels)
-- 🔹 Scheduled notifications with Celery Beat
-- 🔹 Telegram bot integration for task alerts
+Key Features:
 
-[View Repository →](https://github.com/vitalivo/task_manager_telegram.git)
+🔹 Real-time updates via WebSockets (Django Channels)
 
----
+🔹 Scheduled notifications with Celery Beat
+
+🔹 Telegram bot integration for task alerts
+
+View Repository →
+
 
 ## 💼 What I Deliver
 
