@@ -58,6 +58,28 @@ Key Features:
 
 View Repository → https://github.com/vitalivo/blog-backend.git
 
+### Custom JWT + RBAC Authentication from Scratch (No simplejwt, No contrib.auth)  
+**Stack:** Django 5.2 · PyJWT · bcrypt · PostgreSQL · Docker  
+
+A complete custom authentication & authorization system built entirely from scratch in 48 hours — **zero third-party auth packages**.
+
+**Implemented from the ground up:**
+- Custom `User` model with bcrypt password hashing
+- JWT access + refresh tokens (PyJWT) — no `djangorestframework-simplejwt`
+- Custom middleware → `request.user`, `request.is_staff`, `request.user_roles`
+- Full-featured RBAC: Roles → Business Elements → 14 granular permissions (own/all)
+- `@require_permission` decorator with proper 401/403 responses
+- Admin panel for managing roles and permissions
+- Soft delete, token refresh endpoint
+- **Zero usage of `django.contrib.auth` or any built-in auth backend**
+
+**Key challenge & victory:**  
+DRF’s `@api_view` was silently resetting `request.user` → defeated by switching protected views to pure Django views while keeping DRF only for serializers.
+
+This is not a test task. This is a **production-ready**, battle-tested authentication core you can drop into any serious project.
+
+Repository → (https://github.com/vitalivo/myauth_project.git)  
+
 🏘️ RentFlow — gRPC Microservices for Lease Management
 Stack: Django/DRF · FastAPI · gRPC · Kafka · PostgreSQL · Docker Compose
 
