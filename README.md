@@ -103,6 +103,7 @@ Total:    50
 
 
 View Repository → https://github.com/vitalivo/mini-crm.git
+
 Run: `docker-compose up --build` · Demo: `./test_clean.sh`
 
 Not a test task. A battle-tested, production-ready lead distribution core you can drop into any CRM or support system.
