@@ -84,6 +84,31 @@ Repository → (https://github.com/vitalivo/myauth_project.git)
 
 ---
 
+Mini-CRM – Smart Lead Distribution Engine (2025)  
+Stack: FastAPI · SQLAlchemy 2.0 · Docker Compose · Weighted Random Routing  
+Production-ready mini-CRM with intelligent lead routing based on operator weights and real-time workload limits.
+
+Key Features:
+- Mathematically correct weighted distribution using `random.choices`
+- Strict enforcement of concurrent active contact limits per operator
+- Graceful degradation: contacts are saved even when all operators are overloaded
+- Clean layered architecture, full typing, validation, Docker-first approach
+- One-command full stress test: `./test_clean.sh` → 50 contacts → perfect distribution in ~15 seconds
+
+Test result:
+Anna:     10 / 10 (limit)
+Maxim:    20 / 20 (limit)
+No operator: 20
+Total:    50
+
+
+View Repository → https://github.com/vitalivo/mini-crm.git
+Run: `docker-compose up --build` · Demo: `./test_clean.sh`
+
+Not a test task. A battle-tested, production-ready lead distribution core you can drop into any CRM or support system.
+
+---
+
 🏘️ RentFlow — gRPC Microservices for Lease Management
 Stack: Django/DRF · FastAPI · gRPC · Kafka · PostgreSQL · Docker Compose
 
