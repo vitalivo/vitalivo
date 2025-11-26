@@ -58,6 +58,8 @@ Key Features:
 
 View Repository → https://github.com/vitalivo/blog-backend.git
 
+---
+
 ### Custom JWT + RBAC Authentication from Scratch (No simplejwt, No contrib.auth)  
 **Stack:** Django 5.2 · PyJWT · bcrypt · PostgreSQL · Docker  
 
@@ -80,6 +82,8 @@ This is not a test task. This is a **production-ready**, battle-tested authentic
 
 Repository → (https://github.com/vitalivo/myauth_project.git)  
 
+---
+
 🏘️ RentFlow — gRPC Microservices for Lease Management
 Stack: Django/DRF · FastAPI · gRPC · Kafka · PostgreSQL · Docker Compose
 
@@ -97,6 +101,8 @@ Key Features:
 
 View Repository → https://github.com/vitalivo/rentfow.git
 
+---
+
 🚗 FleetTrack — Real-Time Fleet Management
 Stack: FastAPI · Kafka · Django · React · Docker Compose
 
@@ -110,7 +116,9 @@ Key Features:
 
 🔹 Multi-service architecture with Docker
 
-View Repository →
+View Repository → https://github.com/vitalivo/fleettrack.git
+
+---
 
 ✅ Task Manager — Real-Time Tasks + Telegram Bot
 Stack: Django · DRF · Channels · Celery · Redis · Aiogram · Docker
@@ -127,6 +135,7 @@ Key Features:
 
 View Repository → https://github.com/vitalivo/task_manager_telegram.git
 
+---
 
 ## 💼 What I Deliver
 
