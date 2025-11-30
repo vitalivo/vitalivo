@@ -76,7 +76,6 @@ Instant sync via WebSockets + scheduled Telegram notifications
 ---
 ### 🏆 LeetCode Journey
 [![LeetCode](https://img.shields.io/badge/LeetCode-vitalivo-EFF01D?logo=leetcode&logoColor=black&style=for-the-badge)](https://leetcode.com/u/vitalivo/)
-![LeetCode Stats](https://leetcode-badge.vercel.app/api/vitalivo?theme=dark&font=Roboto&borderRadius=12)
 
 > Just getting started • Deepening my DSA fundamentals for even more efficient production code  
 > Algorithms aren't just theory—they're the key to writing scalable, optimized backends that handle real-world loads without breaking a sweat.
