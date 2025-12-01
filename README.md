@@ -1,4 +1,4 @@
-# 👋 Hey, I'm Vitaliy — Senior Python Backend Engineer
+# 👋 Hey, I'm Vitaliy — Python Backend Engineer
 
 **I build battle-tested, scalable backend systems that stay up under real production load and grow with your business.**
 
