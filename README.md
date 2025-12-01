@@ -28,7 +28,7 @@
 `Apache Kafka` `Redis Streams` `WebSockets` `Django Channels`
 
 **Databases**  
-`PostgreSQL (expert level)` `SQLAlchemy 2.0` `Redis`
+`PostgreSQL` `SQLAlchemy 2.0` `Redis`
 
 **DevOps & Infra**  
 `Docker` `Docker Compose` `GitHub Actions CI/CD` `Linux`
