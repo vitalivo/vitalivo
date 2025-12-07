@@ -73,6 +73,25 @@ Kafka → live WebSocket dashboards, multi-service setup
 Instant sync via WebSockets + scheduled Telegram notifications  
 ➜ [github.com/vitalivo/task_manager_telegram](https://github.com/vitalivo/task_manager_telegram)
 
+### 7.**Course Builder — Fullstack Test Task (Dec 2025)**
+**Live demo**: https://frontend-v2v7h4ezo-vitalivo-gmailcoms-projects.vercel.app  
+**Demo login**: `demo@demo.com` / `demo123`
+Full-featured web app for building personal courses from video lessons.
+
+**Features:**
+- JWT authentication
+- Lesson catalog with search and tag filtering
+- Course builder with local state (Zustand)
+- My Courses page + course details
+- Responsive UI (Tailwind CSS)
+- Backend: FastAPI + SQLModel + PostgreSQL
+- Full Docker setup (docker-compose)
+**Tech stack:** Next.js 14, TypeScript, Tailwind, Zustand, FastAPI, PostgreSQL, Docker  
+**Private repo** — available upon request
+One-command start: `docker-compose up --build`
+
+![Preview](https://i.imgur.com/8nK9vLm.png)
+
 ---
 ### 🏆 LeetCode Journey
 [![LeetCode](https://img.shields.io/badge/LeetCode-vitalivo-EFF01D?logo=leetcode&logoColor=black&style=for-the-badge)](https://leetcode.com/u/vitalivo/)
