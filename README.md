@@ -45,14 +45,14 @@
 Analyzed complex natural language queries (Russian NL-to-SQL) for video performance metrics against a PostgreSQL database. **Solved critical data-typing issues, forced complex JOINs, and managed date-time conversions** via targeted system prompts.
 * **Key Achievement:** Created a robust, production-grade SYSTEM_PROMPT to ensure **100% test coverage** across all edge cases (unique dates, aggregated growth, final statistics, and complex ID matching).
 * Stack: **FastAPI** • **PostgreSQL** • **AsyncPG** • **LLM Integration (Groq/OpenAI)** • **aiogram** • **Docker Compose**
-* ➜ github.com/vitalivo/video_analytics_bot
+* ➜ [github.com/vitalivo/video_analytics_bot](https://github.com/vitalivo/video_analytics_bot.git)
 
 2. Mini-CRM – Smart Weighted Lead Distribution Engine (2025)
 
 Mathematically correct weighted routing with strict concurrent limits per operator
 ** How to see it in action: `./test_clean.sh` → 50 leads distributed perfectly in ~15 sec
 Stack: FastAPI • SQLAlchemy 2.0 • Docker • Weighted Random
-➜ github.com/vitalivo/mini-crm
+➜ [github.com/vitalivo/mini-crm](https://github.com/vitalivo/mini-crm.git)
 
 3. Custom JWT + Full RBAC Auth System from Scratch (48 hours)
 
@@ -63,28 +63,28 @@ Granular permissions system (14 permissions, own/all scope)
 `@require_permission` decorator with correct 401/403
 Admin panel, soft delete, refresh endpoint
 Beat DRF bug that silently reset `request.user`
-➜ github.com/vitalivo/myauth_project
+➜ [github.com/vitalivo/myauth_project](https://github.com/vitalivo/myauth_project.git)
 
 4. Production-Ready Blog API
 
 Clean architecture, 100% test coverage, structured logging, monitoring-ready
 Stack: Django Ninja • PostgreSQL • Docker Compose • Unit Tests
-➜ github.com/vitalivo/blog-backend
+➜ [github.com/vitalivo/blog-backend](https://github.com/vitalivo/blog-backend.git)
 
 5. RentFlow — gRPC + Kafka Microservices
 
 Cross-service communication & data sync between Django and FastAPI services via events
-➜ github.com/vitalivo/rentfow
+➜ [github.com/vitalivo/rentfow](https://github.com/vitalivo/rentfow.git)
 
 6. FleetTrack — Real-Time Vehicle Tracking
 
 Kafka → live WebSocket dashboards, multi-service setup
-➜ github.com/vitalivo/fleettrack
+➜ [github.com/vitalivo/fleettrack](https://github.com/vitalivo/fleettrack.git)
 
 7. Task Manager with Telegram Bot
 
 Instant sync via WebSockets + scheduled Telegram notifications
-➜ github.com/vitalivo/task_manager_telegram
+➜ [github.com/vitalivo/task_manager_telegram](https://github.com/vitalivo/task_manager_telegram.git)
 
 8. Course Builder — Fullstack Test Task (Dec 2025)
 
@@ -93,8 +93,8 @@ Demo login: `demo@demo.com` / `demo123` Full-featured web app for building perso
 Features: JWT authentication, Lesson catalog, Course builder, Responsive UI.
 Backend: FastAPI + SQLModel + PostgreSQL
 Tech stack: Next.js 14, TypeScript, Tailwind, Zustand, FastAPI, PostgreSQL, Docker
-Private repo — available upon request One-command start: `docker-compose up --build`
 
+➜ [https://github.com/vitalivo/Test-task.git](https://github.com/vitalivo/Test-task.git)
 ---
 ### 🏆 LeetCode Journey
 [![LeetCode](https://img.shields.io/badge/LeetCode-vitalivo-EFF01D?logo=leetcode&logoColor=black&style=for-the-badge)](https://leetcode.com/u/vitalivo/)
