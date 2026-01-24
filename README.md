@@ -2,24 +2,26 @@
 
 **I build battle-tested, scalable backend systems that stay up under real production load and grow with your business.**
 
-🔥 **Core expertise**: Event-driven architecture · Real-time systems · Microservices · High-load APIs  
+🔥 **Core expertise:** Event-driven architecture · Real-time systems · Microservices · High-load APIs  
 🌍 Remote / Worldwide  
 📧 vitalivo@gmail.com  
-💬 Telegram: [@vitalivo](https://t.me/vitalivo) (fastest response)
+💬 Telegram: [@vitalivo](https://t.me/vitalivo) (fast response)
 
 ---
 
-### 🚀 What I deliver in production (not just "familiar with")
+## 🚀 What I deliver in production (not just “familiar with”)
 
-| Your challenge                          | My production-grade solution                                      |
-|-----------------------------------------|-------------------------------------------------------------------|
-| Need horizontal scaling                 | Kafka + Redis Streams + event-driven design                       |
-| Real-time dashboards / chat / tracking  | WebSockets (Channels / FastAPI) + Kafka consumers                 |
-| Microservices that don't fall apart     | gRPC + Docker Compose + proper health checks & retries           |
-| Database becoming a bottleneck          | PostgreSQL deep optimization (indexing, CTEs, partitioning, N+1 fixes) |
-| Background jobs & queues                | Celery Beat + Redis + Kafka producers/cons; dead-letter handling |
+| Your challenge | My production-grade solution |
+|---|---|
+| Need horizontal scaling | Kafka / Redis Streams + event-driven design |
+| Real-time dashboards / chat / tracking | WebSockets (Channels / FastAPI) + consumers |
+| Microservices that don’t fall apart | gRPC + Docker Compose + health checks + retries/backoff |
+| Database becoming a bottleneck | PostgreSQL optimization (indexes, EXPLAIN, CTEs, partitioning, N+1 fixes) |
+| Background jobs & queues | Celery / Streams / Kafka pipelines, idempotency, dedup, DLQ patterns |
 
-### 🛠 Battle-tested tech stack
+---
+
+## 🛠 Battle-tested tech stack
 
 **Backend**  
 `FastAPI` `Django / DRF / Django-Ninja` `asyncio` `gRPC` `Celery`
@@ -31,105 +33,81 @@
 `PostgreSQL` `SQLAlchemy 2.0` `Redis`
 
 **DevOps & Infra**  
-`Docker` `Docker Compose` `GitHub Actions CI/CD` `Linux`
+`Docker` `Docker Compose` `Linux` `CI/CD (GitHub Actions)`
 
 **Frontend (when needed fast)**  
 `React` `Next.js` `TypeScript`
 
 ---
 
-🔥 Featured Production-Ready Projects (Docker + tests included)
+## 🔥 Featured Production-Ready Projects (Docker + tests)
 
-1. 🤖 **AI-Powered Video Analytics Telegram Bot** (LLM-to-SQL)
+### 1) 🧠 Listings Monitoring → Telegram (Avito-style) — event-driven, scalable, 24/7-ready
+Subscription-based monitoring: users add a category/city/search link and receive new listings in Telegram with low end-to-end latency.
+- Fair per-user rate limiting (1–10 RPS tiers)
+- Redis Streams queues (consumer groups, XAUTOCLAIM) → at-least-once delivery
+- PostgreSQL dedup → no duplicate notifications after restarts/retries
+- Admin panel + internal stats/metrics + Prometheus endpoint
+➜ https://github.com/vitalivo/Parser
 
-Analyzed complex natural language queries (Russian NL-to-SQL) for video performance metrics against a PostgreSQL database. **Solved critical data-typing issues, forced complex JOINs, and managed date-time conversions** via targeted system prompts.
-* **Key Achievement:** Created a robust, production-grade SYSTEM_PROMPT to ensure **100% test coverage** across all edge cases (unique dates, aggregated growth, final statistics, and complex ID matching).
-* Stack: **FastAPI** • **PostgreSQL** • **AsyncPG** • **LLM Integration (Groq/OpenAI)** • **aiogram** • **Docker Compose**
-  
-➜ [github.com/vitalivo/video_analytics_bot](https://github.com/vitalivo/video_analytics_bot.git)
+### 2) 🤖 AI-Powered Video Analytics Telegram Bot (LLM-to-SQL)
+Natural language → SQL analytics for video performance metrics in PostgreSQL.
+- Robust prompt strategy focused on correctness and edge cases
+- Docker-first delivery + tests
+Stack: **FastAPI** • **PostgreSQL** • **AsyncPG** • **LLM (Groq/OpenAI)** • **aiogram** • **Docker Compose**  
+➜ https://github.com/vitalivo/video_analytics_bot
 
-2. Mini-CRM – Smart Weighted Lead Distribution Engine (2025)
+### 3) Mini-CRM — Smart Weighted Lead Distribution Engine (2025)
+Mathematically correct weighted routing with strict concurrent limits per operator.  
+How to see it in action: `./test_clean.sh` → 50 leads distributed in ~15 sec.  
+Stack: FastAPI • SQLAlchemy 2.0 • Docker  
+➜ https://github.com/vitalivo/mini-crm
 
-Mathematically correct weighted routing with strict concurrent limits per operator
-** How to see it in action: `./test_clean.sh` → 50 leads distributed perfectly in ~15 sec
-Stack: FastAPI • SQLAlchemy 2.0 • Docker • Weighted Random
+### 4) Custom JWT + Full RBAC Auth System (48 hours)
+Zero third-party auth packages. Custom user, access/refresh tokens, granular permissions, admin tooling.  
+➜ https://github.com/vitalivo/myauth_project
 
-➜ [github.com/vitalivo/mini-crm](https://github.com/vitalivo/mini-crm.git)
+### 5) Production-Ready Blog API
+Clean architecture, structured logging, monitoring-ready, high test coverage.  
+Stack: Django Ninja • PostgreSQL • Docker Compose • Unit Tests  
+➜ https://github.com/vitalivo/blog-backend
 
-3. Custom JWT + Full RBAC Auth System from Scratch (48 hours)
+### 6) RentFlow — gRPC + Kafka Microservices
+Cross-service communication & data sync between Django and FastAPI services via events.  
+➜ https://github.com/vitalivo/rentfow
 
-Zero third-party auth packages. Not a single line of `simplejwt` or `django.contrib.auth`
-Custom User + bcrypt
-Access + refresh tokens (PyJWT)
-Granular permissions system (14 permissions, own/all scope)
-`@require_permission` decorator with correct 401/403
-Admin panel, soft delete, refresh endpoint
-Beat DRF bug that silently reset `request.user`
+### 7) FleetTrack — Real-Time Vehicle Tracking
+Kafka → live WebSocket dashboards, multi-service setup.  
+➜ https://github.com/vitalivo/fleettrack
 
-➜ [github.com/vitalivo/myauth_project](https://github.com/vitalivo/myauth_project.git)
+### 8) Task Manager with Telegram Bot
+Instant sync via WebSockets + scheduled Telegram notifications.  
+➜ https://github.com/vitalivo/task_manager_telegram
 
-4. Production-Ready Blog API
-
-Clean architecture, 100% test coverage, structured logging, monitoring-ready
-Stack: Django Ninja • PostgreSQL • Docker Compose • Unit Tests
-
-➜ [github.com/vitalivo/blog-backend](https://github.com/vitalivo/blog-backend.git)
-
-5. RentFlow — gRPC + Kafka Microservices
-
-Cross-service communication & data sync between Django and FastAPI services via events
-
-➜ [github.com/vitalivo/rentfow](https://github.com/vitalivo/rentfow.git)
-
-6. FleetTrack — Real-Time Vehicle Tracking
-
-Kafka → live WebSocket dashboards, multi-service setup
-
-➜ [github.com/vitalivo/fleettrack](https://github.com/vitalivo/fleettrack.git)
-
-7. Task Manager with Telegram Bot
-
-Instant sync via WebSockets + scheduled Telegram notifications
-
-➜ [github.com/vitalivo/task_manager_telegram](https://github.com/vitalivo/task_manager_telegram.git)
-
-8. Course Builder — Fullstack Test Task (Dec 2025)
-
-Live demo: https://frontend-v2v7h4ezo-vitalivo-gmailcoms-projects.vercel.app
-Demo login: `demo@demo.com` / `demo123` Full-featured web app for building personal courses from video lessons.
-Features: JWT authentication, Lesson catalog, Course builder, Responsive UI.
-Backend: FastAPI + SQLModel + PostgreSQL
-Tech stack: Next.js 14, TypeScript, Tailwind, Zustand, FastAPI, PostgreSQL, Docker
-
-➜ [https://github.com/vitalivo/Test-task.git](https://github.com/vitalivo/Test-task.git)
+### 9) Course Builder — Fullstack Test Task (Dec 2025)
+Live demo: https://frontend-v2v7h4ezo-vitalivo-gmailcoms-projects.vercel.app  
+Demo login: `demo@demo.com` / `demo123`  
+Backend: FastAPI + SQLModel + PostgreSQL  
+Tech: Next.js 14, TypeScript, Tailwind, Zustand, Docker  
+➜ https://github.com/vitalivo/Test-task
 
 ---
-### 🏆 LeetCode Journey
+
+## 🏆 LeetCode Journey
 [![LeetCode](https://img.shields.io/badge/LeetCode-vitalivo-EFF01D?logo=leetcode&logoColor=black&style=for-the-badge)](https://leetcode.com/u/vitalivo/)
 
-> Just getting started • Deepening my DSA fundamentals for even more efficient production code  
-> Algorithms aren't just theory—they're the key to writing scalable, optimized backends that handle real-world loads without breaking a sweat.
-
 ---
 
-### 💼 What you get when working with me
+## 💼 What you get when working with me
+- Systems that scale horizontally without rewriting
+- Clean, tested code, Docker-first delivery
+- Production mindset: metrics, retries/backoff, idempotency, failure modes
 
-- Systems that scale horizontally without rewriting  
-- Clean, typed, fully tested code  
-- Docker-first: `docker-compose up --build` and everything just works  
-- Full CI/CD pipelines out of the box  
-- DB optimizations that save thousands on infrastructure  
-- LLM/AI-ready endpoints (already implementing in current contracts)
-
-### 📬 Currently open to
-
-- Remote Senior/Middle+ Backend roles  
-- Contract & freelance projects (2 weeks+)  
-- Interesting open-source collaboration (AI/automation tools)
+## 📬 Currently open to
+- Remote Middle+/Senior Backend roles
+- Contract & long-term maintenance (2 weeks+)
+- Interesting open-source collaboration
 
 **Contact me** → vitalivo@gmail.com or Telegram [@vitalivo](https://t.me/vitalivo)
 
 > **“I don’t just ship APIs — I build reliable systems that handle real production traffic and scale with your business.”**
-
-⭐ Star this profile if you're tired of junior-level code in production ;)
-
