@@ -1,3 +1,4 @@
+
 # 👋 Hey, I'm Vitaliy — Python Backend Engineer
 
 **I build battle-tested, scalable backend systems that stay up under real production load and grow with your business.**
@@ -42,123 +43,71 @@
 
 ## 🔥 Featured Production-Ready Projects (Docker + tests)
 
-### 1) 🧠 Listings Monitoring → Telegram (Avito-style) — event-driven, scalable, 24/7-ready
-Subscription-based monitoring: users add a category/city/search link and receive new listings in Telegram with low end-to-end latency.
-
-**What makes it production-ready**
-- Fair per-user rate limiting (1–10 RPS tiers), scalable to 150+ users
-- Redis Streams queues (consumer groups, XAUTOCLAIM) → at-least-once delivery
-- PostgreSQL dedup → no duplicate notifications after restarts/retries
-- Subscription visibility: last check/success/error, consecutive errors, pause status
-- Internal stats/metrics endpoints + Prometheus text format metrics
-- Docker Compose: backend + scheduler + workers + bot + Postgres + Redis
-
+### 🧠 Listings Monitoring → Telegram (Avito-style)
+Monitors listing links (category/city/search) and sends new items to Telegram.
+Rate limited per user (1–10 RPS), built to run 24/7 with queues, dedup, and metrics.
 ➜ https://github.com/vitalivo/Parser
 
----
-
-### 2) 🤖 AI-Powered Video Analytics Telegram Bot (LLM-to-SQL)
-Natural language → SQL analytics for video performance metrics in PostgreSQL, wrapped in a Telegram bot.
-
-**Highlights**
-- Reliable NL-to-SQL pipeline focused on correctness for analytics queries
-- Handles tricky cases: date ranges, aggregation, joins, type conversions
-- Docker-first delivery + testable architecture
-
-**Stack**  
-FastAPI • PostgreSQL • AsyncPG • LLM (Groq/OpenAI) • aiogram • Docker Compose
-
+### 🤖 AI-Powered Video Analytics Telegram Bot (LLM-to-SQL)
+Telegram bot that turns natural language questions into SQL analytics on PostgreSQL.
+Focused on correctness for joins/aggregations/dates and a stable, Docker-first delivery.
 ➜ https://github.com/vitalivo/video_analytics_bot
 
----
-
-### 3) Mini-CRM — Smart Weighted Lead Distribution Engine (2025)
-Mathematically correct weighted routing with strict concurrent limits per operator.
-
-**Highlights**
-- Correct weighted distribution under concurrency constraints
-- Fast verification script: `./test_clean.sh` (demo-friendly)
-- Clean service design with predictable behavior
-
-**Stack**  
-FastAPI • SQLAlchemy 2.0 • Docker
-
+### 🎯 Mini-CRM — Weighted Lead Distribution Engine
+Lead router with mathematically correct weighted distribution under concurrency limits.
+Includes a fast demo script and a clean service design.
 ➜ https://github.com/vitalivo/mini-crm
 
----
-
-### 4) Custom JWT + Full RBAC Auth System (48 hours)
-Auth system built from scratch: custom user model, tokens, permissions, admin tooling.
-
-**Highlights**
-- Access + refresh tokens, secure hashing, correct 401/403 behavior
-- Granular permissions (own/all scopes), decorator-based enforcement
-- Admin integration, soft delete, refresh endpoint
-
-**Stack**  
-Django / DRF • PyJWT • PostgreSQL • Docker
-
+### 🔐 Custom JWT + Full RBAC Auth System
+Auth system from scratch: access/refresh tokens, roles/permissions, admin tooling.
+Built to get correct 401/403 behavior and predictable permission scopes.
 ➜ https://github.com/vitalivo/myauth_project
 
----
-
-### 5) Production-Ready Blog API
-Clean architecture API with high test coverage and monitoring-ready structure.
-
-**Highlights**
-- Clean separation of concerns, predictable endpoints
-- Test-first mindset, structured logging patterns
-- Docker Compose for one-command run
-
-**Stack**  
-Django Ninja • PostgreSQL • Docker Compose • Unit Tests
-
+### 📝 Production-Ready Blog API
+Backend API with clean architecture, high test coverage, and monitoring-ready structure.
+Docker Compose for reproducible local runs.
 ➜ https://github.com/vitalivo/blog-backend
 
----
-
-### 6) 🏠 RentFlow — Microservices Rental Management Platform
-Modern rental management platform built around microservices and asynchronous event-driven communication.
-
-**Highlights**
-- Django as API gateway + ORM (core business logic + admin workflows)
-- FastAPI services for high-load domains (tracking, tenants, payments)
-- Kafka for async service-to-service communication (event-driven sync)
-- Payments service: idempotent writes, stats endpoints, Prometheus-ready metrics
-- Kafka UI for local debugging and topic inspection
-- Docker Compose setup for reproducible local environment
-
-**Services (local)**
-- `django-web` — API gateway, business logic, ORM — `http://localhost:8000`
-- `django-consumer` — Kafka consumer for rental domain events
-- `fastapi-tracking` — tracking/events — `http://localhost:8011`
-- `fastapi-tenants` — tenants domain — `http://localhost:8021`
-- `fastapi-payments` — payments domain — `http://localhost:8023`
-- `kafka-ui` — Kafka monitoring — `http://localhost:8080`
-- `react-frontend` — UI — `http://localhost:3000`
-
-**Stack**  
-Django • FastAPI • Kafka • PostgreSQL • Redis • React • Docker Compose
-
+### 🏠 RentFlow — Rental Microservices Platform
+Microservice rental platform: Django gateway + FastAPI services synced via Kafka events.
+Payments domain includes idempotency and metrics-ready endpoints.
 ➜ https://github.com/vitalivo/rentfow
 
+### 🚗 FleetTrack — Real-Time Fleet Management
+Real-time fleet platform (Kafka → WebSockets dashboards) with Django/DRF + FastAPI + React.
+Designed for live updates and a Docker Compose demo environment.
+➜ https://github.com/vitalivo/fleettrack
+
+### ✅ TaskFlow — Tasks + Telegram + Real-time
+Task manager with Telegram notifications and real-time UI updates via WebSockets.
+Includes scheduled reminders (Celery) and a Docker Compose setup.
+➜ https://github.com/vitalivo/task_manager_telegram
+
+### 🧩 Course Builder (Fullstack)
+Fullstack course builder app with JWT auth and responsive UI.
+FastAPI backend + modern Next.js frontend.
+➜ https://github.com/vitalivo/Test-task
+
+## 🏆 LeetCode Journey
+[![LeetCode](https://img.shields.io/badge/LeetCode-vitalivo-EFF01D?logo=leetcode&logoColor=black&style=for-the-badge)](https://leetcode.com/u/vitalivo/)
+
 ---
 
-### 7) 🚗 FleetTrack — Real-Time Fleet Management System
-Fullstack real-time platform to manage vehicles and drivers with live updates across the system.
+## 💼 What you get when working with me
+- Systems that scale horizontally without rewriting
+- Clean, tested code and production-oriented architecture
+- Docker-first delivery: quick onboarding and reproducible environments
+- Strong PostgreSQL skills: performance, migrations, data modeling
+- Reliability mindset: retries/backoff, idempotency, dedup, failure modes
 
-**Highlights**
-- Drivers & vehicles management with admin workflows
-- JWT authentication + role-oriented access control
-- Real-time updates: Kafka events → WebSocket dashboards (instant UI refresh)
-- Microservice-ready layout: Django/DRF + FastAPI services
-- Docker Compose: reproducible environment for local and demo runs
+---
 
-**Stack**  
-Backend: Django • DRF • FastAPI • PostgreSQL • Redis • Kafka • WebSockets  
-Frontend: React • Vite • TypeScript • Tailwind  
-Infra: Docker • Docker Compose
+## 📬 Currently open to
+- Remote Middle+/Senior Backend roles
+- Contract & long-term maintenance (2 weeks+)
+- Open-source collaboration (backend / infra / automation)
 
-**Run**
-```bash
-docker compose up --build
+**Contact me** → vitalivo@gmail.com or Telegram [@vitalivo](https://t.me/vitalivo)
+
+> **“I don’t just ship APIs — I build reliable systems that handle real production traffic and scale with your business.”**
+
