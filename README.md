@@ -43,6 +43,12 @@
 
 ## 🔥 Featured Production-Ready Projects (Docker + tests)
 
+
+###📱 Crypto Wallet Android App (Dynamic SDK, Sepolia)
+Android‑приложение с Email OTP, просмотром баланса и отправкой транзакций в сети Sepolia. Jetpack Compose, MVVM, StateFlow, Hilt, pull‑to‑refresh, Docker‑first.
+➜ https://github.com/vitalivo/Crypto-Wallet-Android-App
+
+
 ### 🧠 Listings Monitoring → Telegram (Avito-style)
 Monitors listing links (category/city/search) and sends new items to Telegram.
 Rate limited per user (1–10 RPS), built to run 24/7 with queues, dedup, and metrics.
