@@ -67,7 +67,8 @@ Microservice rental platform: Django gateway + FastAPI services synced via Kafka
 Real-time fleet platform (Kafka → WebSockets dashboards) with Django/DRF + FastAPI + React. Designed for live updates and a Docker Compose demo environment.  
 ➜ https://github.com/vitalivo/fleettrack
 
-✅ TaskFlow — Enterprise-grade Task Management Ecosystem Full-stack platform with real-time WebSockets, automated deadine reminders (Celery), and deep Telegram integration (System & Personal bots). Features a robust audit log, RBAC permissions, and a one-click Docker deployment. Built for seamless scaling from a small team to a high-load production environment. ➜ https://github.com/vitalivo/task_manager_telegram
+✅ TaskFlow — Enterprise-grade Task Management Ecosystem Full-stack platform with real-time WebSockets, automated deadine reminders (Celery), and deep Telegram integration (System & Personal bots). Features a robust audit log, RBAC permissions, and a one-click Docker deployment. Built for seamless scaling from a small team to a high-load production environment. 
+➜ https://github.com/vitalivo/task_manager_telegram
 
 🧩 Course Builder (Fullstack)  
 Fullstack course builder app with JWT auth and responsive UI. FastAPI backend + modern Next.js frontend.  
