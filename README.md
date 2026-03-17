@@ -1,106 +1,90 @@
-# 👋 Hey, I'm Vitaliy — Python Backend Engineer
+# 👋 Hey, I'm Vitaliy — Backend Engineer
 
-I build battle-tested backend systems that stay reliable under real production load and scale with business growth.
+I build backend systems for operational products, Telegram platforms, AI-backed workflows, and services that need clean product logic behind the interface.
 
-🔥 **Core expertise:** Event-driven architecture · Real-time systems · Microservices · High-load APIs  
-🌍 **Remote / Worldwide**  
-📧 **Email:** vitalivo@gmail.com  
-💬 **Telegram:** [@vitalivo](https://t.me/vitalivo) (fast response)
+🔥 Core expertise: Backend architecture · Operational systems · Telegram products · AI workflows · Integrations  
+🌍 Remote / Worldwide  
+📧 Email: vitalivo@gmail.com  
+💬 Telegram: @vitalivo
 
-## 🚀 What I Deliver in Production (Not Just “Familiar With”)
+## 🚀 What I Actually Build
+Your challenge | My working approach
+--- | ---
+Operational complexity grows faster than the product | Explicit backend logic, statuses, roles, workflows, and maintainable domain structure
+Telegram becomes part of the product, not just notifications | Bots, Mini Apps, admin flows, alerts, and product logic around Telegram
+AI needs real business logic around it | Controlled AI workflows with queues, storage, validation, and product-side orchestration
+Too many manual operations inside the business | Internal systems for clients, hiring, contracts, reminders, finance, and delivery workflows
+Integrations start to break product flow | API-first backend, retries, queues, status tracking, and stable service boundaries
 
-| Your challenge | My production-grade solution |
-|---|---|
-| Horizontal scaling | Kafka / Redis Streams + event-driven architecture |
-| Real-time dashboards / chat / tracking | WebSockets (Django Channels / FastAPI) + consumers |
-| Microservices that don’t fall apart | gRPC + Docker Compose + health checks + retries/backoff |
-| Database bottlenecks | PostgreSQL optimization (indexes, EXPLAIN, CTEs, partitioning, N+1 fixes) |
-| Background jobs & queues | Celery / Streams / Kafka pipelines, idempotency, deduplication, DLQ patterns |
+## 🛠 Core Stack
 
-## 🛠 Battle-Tested Tech Stack
+### Backend
+Python · Django · DRF · FastAPI · Celery · asyncio
 
-**Backend**  
-FastAPI · Django / DRF / Django-Ninja · asyncio · gRPC · Celery
+### Data & Infra
+PostgreSQL · Redis · Docker · Linux · CI/CD
 
-**Real-time & Messaging**  
-Apache Kafka · Redis Streams · WebSockets · Django Channels
+### Messaging & Product Layer
+aiogram · Telegram Bots · Telegram Mini Apps · WebSockets
 
-**Databases**  
-PostgreSQL · SQLAlchemy 2.0 · Redis
-
-**DevOps & Infra**  
-Docker · Docker Compose · Linux · CI/CD (GitHub Actions)
-
-**Frontend (when needed fast)**  
-React · Next.js · TypeScript
+### Frontend (when needed)
+Next.js · React · TypeScript
 
 ## ⭐ Flagship Project
 
-### ✅ TaskFlow — Enterprise-Grade Task Management Ecosystem
-Full-stack platform with real-time WebSockets, automated deadline reminders (Celery), and deep Telegram integration (system + personal bots).  
-Includes robust RBAC, audit logs, invite-only access, and Docker-first deployment with PostgreSQL + Redis + Celery architecture.  
-Built to scale from a small team to high-load production environments.  
-➜ https://github.com/vitalivo/task_manager_telegram
+### ✅ Agency OS — Internal Operational System
+Local-first operational platform for clients, projects, contracts, hiring, finance, reminders, and role-based access.
 
----
+Built as a real internal working system, not a demo repository.  
+Focused on operational visibility, role separation, and day-to-day execution.
 
-## 🔥 Featured Production-Ready Projects (Docker + Tests)
+➜ https://github.com/vitalivo/agency-os
 
-### 📱 Crypto Wallet Android App (Dynamic SDK, Sepolia)
-Android app with Email OTP auth, balance display, and ETH transactions on Sepolia. Jetpack Compose, MVVM, StateFlow, Hilt, pull-to-refresh, Docker-first.  
-➜ https://github.com/vitalivo/Crypto-Wallet-Android-App
+## 🔥 Selected Public Repositories
 
-### 🧠 Listings Monitoring → Telegram (Avito-style)
-Monitors listing links (category/city/search) and sends new items to Telegram. Rate-limited per user (1–10 RPS), built for 24/7 runs with queues, deduplication, and metrics.  
+### 📡 Parser — Monitoring / Alerting Pipeline
+Parser and monitoring service with Redis Streams, PostgreSQL deduplication, Telegram alerts, and worker-based scaling.
+
 ➜ https://github.com/vitalivo/Parser
 
-### 🤖 AI-Powered Video Analytics Telegram Bot (LLM-to-SQL)
-Telegram bot that turns natural language questions into SQL analytics on PostgreSQL. Focused on correctness for joins/aggregations/dates and stable Docker-first delivery.  
-➜ https://github.com/vitalivo/video_analytics_bot
+### 🧠 Fitting Room AI — AI / Photo Workflow Base
+Infrastructure base for AI and media processing with FastAPI, Celery workers, Redis, PostgreSQL, MinIO, and Telegram-facing flow.
 
-### 🎯 Mini-CRM — Weighted Lead Distribution Engine
-Lead router with mathematically correct weighted distribution under concurrency limits. Includes a fast demo script and clean service design.  
-➜ https://github.com/vitalivo/mini-crm
+➜ https://github.com/vitalivo/fitting-room-ai
 
-### 🔐 Custom JWT + Full RBAC Auth System
-Auth system from scratch: access/refresh tokens, roles/permissions, admin tooling. Built for correct 401/403 behavior and predictable permission scopes.  
-➜ https://github.com/vitalivo/myauth_project
+### 🏢 TaskFlowProject — B2B Delivery Platform
+Client portal, workspace, billing, staff/ops contour, role-based access, and Telegram notifications.
 
-### 📝 Production-Ready Blog API
-Backend API with clean architecture, high test coverage, and monitoring-ready structure. Docker Compose for reproducible local runs.  
-➜ https://github.com/vitalivo/blog-backend
+➜ https://github.com/Tehniki-Dev/TaskFlowProject
 
-### 🏠 RentFlow — Rental Microservices Platform
-Microservice rental platform: Django gateway + FastAPI services synced via Kafka events. Payments domain includes idempotency and metrics-ready endpoints.  
-➜ https://github.com/vitalivo/rentfow
+## 🔒 Additional Private and Team Work
 
-### 🚗 FleetTrack — Real-Time Fleet Management
-Real-time fleet platform (Kafka → WebSockets dashboards) with Django/DRF + FastAPI + React. Designed for live updates and a Docker Compose demo environment.  
-➜ https://github.com/vitalivo/fleettrack
+Some work is private or team-based, but it reflects the kind of systems I work on:
 
-### 🧩 Course Builder (Fullstack)
-Fullstack course builder app with JWT auth and responsive UI. FastAPI backend + modern Next.js frontend.  
-➜ https://github.com/vitalivo/Test-task
-
-### 🏆 LeetCode Journey
-LeetCode
+- Django admin module with its own database and synchronization into a FastAPI core in a taxi-platform team
+- VPN platform work around nodes, billing, operational control, and service lifecycle
+- AI and media-processing backends with queues, storage, workers, and controlled generation flows
+- CRM communication automation and messaging workflow systems
+- private delivery across admin panels, billing, reporting, and integration-heavy backend products
 
 ## 💼 What You Get When Working With Me
 
-- Systems that scale horizontally without rewriting
-- Clean, tested code and production-oriented architecture
-- Docker-first delivery: fast onboarding and reproducible environments
-- Strong PostgreSQL skills: performance, migrations, data modeling
-- Reliability mindset: retries/backoff, idempotency, deduplication, failure-mode handling
+- Backend architecture built around real product workflows
+- Clean service logic instead of “just endpoints”
+- Stable integrations and operational visibility
+- Docker-first development and reproducible environments
+- Careful approach to claims, scope, and phased delivery
+- Ability to work hands-on solo or bring in trusted TEHNIKI support when the scope grows
 
 ## 📬 Currently Open To
 
-- Remote Middle+/Senior Backend roles
-- Contract & long-term maintenance (2 weeks+)
-- Open-source collaboration (backend / infra / automation)
+- Backend-heavy SaaS products
+- Telegram bots and Mini Apps
+- Internal operational systems
+- AI products that need real backend logic around them
+- Contract work and long-term product development
 
-**Contact:** vitalivo@gmail.com or Telegram [@vitalivo](https://t.me/vitalivo)
+Contact: vitalivo@gmail.com or Telegram @vitalivo
 
-> “I don’t just ship APIs — I build reliable systems that handle real production traffic and scale with your business.”
 
 
