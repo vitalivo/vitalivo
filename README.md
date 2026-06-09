@@ -131,23 +131,6 @@ Repository: [vitalivo/my-marketplace](https://github.com/vitalivo/my-marketplace
 
 ---
 
-## Portfolio Audit Snapshot
-
-An internal GitHub portfolio and technology audit was generated from repository metadata, language stats, README files, package manifests, Python manifests, Docker/CI configs, schemas, and safe repository structure analysis.
-
-Snapshot from the audit:
-
-| Metric | Result |
-|---|---:|
-| Repositories inspected | 129 |
-| Showcase-level projects | 17 |
-| Commercial / client-relevant repositories | 97 |
-| Public / private repositories | 93 / 36 |
-
-Detected stack areas include Python, TypeScript, JavaScript, React, Next.js, Vite, Tailwind CSS, FastAPI, Django, NestJS, Fastify, Express, PostgreSQL, Redis, Supabase, SQLAlchemy, Alembic, Drizzle ORM, Prisma, OpenAI API, Claude/Anthropic API, Telegram API, aiogram, Pyrogram, Telegraf, Docker, Docker Compose, GitHub Actions, pytest, Jest, Vitest, Playwright, and Testcontainers.
-
----
-
 ## How I Work
 
 I prefer to start with the real workflow, not the technology list.
