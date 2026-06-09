@@ -1,124 +1,186 @@
-# 👋 Hey, I'm Vitaliy — Backend Engineer
+# Vitaliy Voloshin
 
-I build backend systems for operational products, Telegram platforms, AI-backed workflows, crypto/Web3 integrations, and services that need clean product logic behind the interface.
+Backend / AI Product Engineer focused on operational platforms, Telegram products, SEO marketplaces, automation systems, and data-heavy business tools.
 
-🔥 Core expertise: Backend architecture · Operational systems · Telegram products · AI & Computer Vision workflows · Crypto / Web3 · Integrations
-🌍 Remote / Worldwide
-📧 Email: vitalivo@gmail.com
-💬 Telegram: [@vitalivo](https://t.me/vitalivo)
+I build systems where backend is not just endpoints: roles, statuses, workflows, payments, queues, admin panels, integrations, AI tools, logs, tests, and production support all matter.
 
----
-
-## 🚀 What I Actually Build
-
-| Your challenge | My working approach |
-| --- | --- |
-| Operational complexity grows faster than the product | Explicit backend logic, statuses, roles, workflows, and maintainable domain structure |
-| Telegram becomes part of the product, not just notifications | Bots, Mini Apps, admin flows, alerts, and product logic around Telegram |
-| AI needs real business logic around it | Controlled AI workflows with queues, storage, validation, and product-side orchestration |
-| Computer vision / video analytics has to be production-grade | YOLO/OpenCV pipelines with state tracking, persistent storage, and Telegram/API output layers |
-| Crypto / Web3 needs a real app around the SDK | Self-custodial wallets, trading bots, on-chain integrations — with proper auth, validation, and UX |
-| Too many manual operations inside the business | Internal systems for clients, hiring, contracts, reminders, finance, and delivery workflows |
-| Integrations start to break product flow | API-first backend, retries, queues, status tracking, and stable service boundaries |
+Remote / Worldwide  
+Email: `vitalivo@gmail.com`  
+Telegram: [@vitalivo](https://t.me/vitalivo)
 
 ---
 
-## 🛠 Core Stack
+## What I Build
 
-### Backend
-Python · Django · DRF · FastAPI · Celery · asyncio
-
-### Data & Infra
-PostgreSQL · Redis · Docker · Linux · CI/CD · MinIO · Kafka
-
-### Messaging & Product Layer
-aiogram · Telegram Bots · Telegram Mini Apps · WebSockets
-
-### AI / Computer Vision
-YOLOv8 · OpenCV · LLM-over-SQL pipelines · queued generation workflows
-
-### Crypto / Web3
-TON · Ethereum (Sepolia) · Dynamic SDK · Bitget WebSocket API · self-custodial wallet flows
-
-### Mobile (when needed)
-Kotlin · Jetpack Compose · MVVM + StateFlow · Material 3
-
-### Frontend (when needed)
-Next.js · React · TypeScript
+| Area | What I usually work on |
+|---|---|
+| Backend / API platforms | FastAPI, Django/DRF, NestJS/Fastify, REST APIs, auth, webhooks, background jobs, admin workflows |
+| Operational systems | CRM/ERP-style tools, roles, statuses, finance flows, audit events, dashboards, internal business processes |
+| Telegram products | Telegram bots, Mini Apps, operational bots, notification systems, admin/control layers |
+| AI workflow systems | LLM APIs, structured output, tool/function calling, RAG-ready workflows, human review, AI assistants inside business processes |
+| SEO marketplaces | Job boards, directory platforms, SEO URL structure, sitemap/indexation logic, content lifecycle, structured data |
+| Data and automation | PostgreSQL, Redis, Supabase, queues, parsers, monitoring pipelines, reporting-oriented data flows |
+| Product recovery | Refactoring, architecture cleanup, integration stabilization, phased MVP delivery, production support |
 
 ---
 
-## 🔒 Flagship & Ongoing Private Work
+## Technology Stack
 
-These are real working systems, but the repositories are **private** (client or internal product). No public links — but the scope gives a clear picture of the kind of backend I ship.
-
-### ⭐ Agency OS — Internal Operational System *(private)*
-Local-first operational platform for clients, projects, contracts, hiring, finance, reminders, and role-based access. Built as a real internal working system, not a demo. Focused on operational visibility, role separation, and day-to-day execution.
-
-### 📡 Parser — Monitoring / Alerting Pipeline *(private)*
-Parser and monitoring service with Redis Streams, PostgreSQL deduplication, Telegram alerts, and worker-based scaling.
-
-### 🧠 Fitting Room AI — AI / Photo Workflow Base *(private)*
-Infrastructure base for AI and media processing with FastAPI, Celery workers, Redis, PostgreSQL, MinIO, and Telegram-facing flow.
-
-### 🏢 TaskFlowProject — B2B Delivery Platform *(private, team)*
-Client portal, workspace, billing, staff/ops contour, role-based access, and Telegram notifications.
-
-### 📧 Mailer — Bulk-Mail Tool with Pre-Send Address Validation *(private)*
-Local Flask web-app for SMTP mass-mailing with batch/delay control, daily quota, and a three-stage address validator (syntax → MX → SMTP RCPT TO). Ships with Docker, Windows launcher, and a full unit + manual test suite.
-
-Other private/team work reflecting the kind of systems I build:
-- Django admin module with its own database, synchronized into a FastAPI core in a taxi-platform team
-- VPN platform work around nodes, billing, operational control, and service lifecycle
-- AI and media-processing backends with queues, storage, workers, and controlled generation flows
-- CRM communication automation and messaging workflow systems
-- Delivery across admin panels, billing, reporting, and integration-heavy backend products
+| Layer | Stack |
+|---|---|
+| Languages | Python, TypeScript, JavaScript, SQL, Shell, Kotlin |
+| Backend | FastAPI, Django, Django REST Framework, Sanic, NestJS, Fastify, Express, REST APIs, WebSockets |
+| Frontend | React, Next.js, Vite, TypeScript, Tailwind CSS, TanStack Query/Router, Zustand, React Hook Form |
+| AI / automation | OpenAI API, Claude/Anthropic API, Gemini API, structured outputs, tool/function calling, agent workflows, n8n, Make.com |
+| Telegram | Telegram Bot API, Telegram Mini Apps, aiogram, Pyrogram, Telegraf, Telethon, realtime notifications |
+| Data | PostgreSQL, Redis, Supabase, SQLAlchemy, Alembic, Drizzle ORM, Prisma, Zod contracts, BullMQ |
+| Background jobs | Celery, Redis Streams, queues, schedulers, retries, worker-based pipelines |
+| QA | pytest, Jest, Vitest, Playwright, Testcontainers, Ruff, mypy, manual scenario checklists |
+| DevOps | Docker, Docker Compose, GitHub Actions, Linux, Nginx, VPS/self-hosted deployment, staging runbooks |
 
 ---
 
-## 🌐 Public Showcase — Browse the Code
+## Selected Work
 
-Repos below are **public** — clone, read, run. They demonstrate concrete slices of the stack described above.
+Some projects are public. Some are private, client-restricted, or team/internal work. For private projects I describe the architecture and scope without exposing client code, credentials, or business data.
 
-### 💎 [TON Testnet Wallet](https://github.com/vitalivo/ton-wallet) · TypeScript
-Self-custodial TON wallet without a backend. Wallet create/import, secure encryption, transactions, address-poisoning protection. **24 automated tests** (crypto, address validation, UI components).
+### TaskFlow AI Operations Platform
 
-### 📱 [Crypto Wallet — Android App](https://github.com/vitalivo/Crypto-Wallet-Android-App) · Kotlin
-Jetpack Compose Android app with Web3 auth (Email OTP) and wallet operations via Dynamic SDK on Sepolia testnet. MVVM + StateFlow, Material 3, transaction sending with validation.
+Private/internal operations and CRM platform connecting clients, projects, developers, finance, conversations, sales deals, tasks, documents, assets, audit events, and AI workspace logic.
 
-### 🤖 [Bitget Trading Bot](https://github.com/vitalivo/bitget-trading-bot) · Python
-Async trading bot for Bitget with dynamic order placement. WebSocket, hedge mode, TP/SL, state persistence, test mode, Docker-ready.
+Stack: TypeScript, React, Vite, Tailwind CSS, TanStack, Zustand, Node.js, NestJS, Fastify, PostgreSQL, Drizzle ORM, Zod contracts, Docker, GitHub Actions.
 
-### 🎥 [Video Analytics Bot — NL→SQL](https://github.com/vitalivo/video_analytics_bot) · Python
-Telegram bot that converts Russian natural-language queries into PostgreSQL SQL for video analytics. Returns a single numeric answer (count, sum, growth).
+Highlights: role-based workflows, finance tracking, conversation scanning, structured AI summaries, native tool/function calls, operation history, rollback for safe write actions, regression-oriented tests.
 
-### 🍕 [Table Clearance Detector](https://github.com/vitalivo/table_detector) · Python
-YOLOv8-based prototype for detecting table occupancy in restaurant security video. Tracks zone states (empty / occupied / approaching) and measures wait time between customers.
+### SEO JobBoard Platform
 
-### 🎓 [Fullstack Course Builder](https://github.com/vitalivo/fullstack-course-builder) · TypeScript
-Full-stack web app for assembling personal courses from video lessons — auth, catalog with search/filters, course creation, responsive UI. One-command launch.
+Private/internal SEO-first job board for the trucking/CDL vertical with clean URL structure, vacancy/company taxonomy, SEO whitelist combinations, lifecycle handling, and admin/content tooling.
+
+Stack: Python, FastAPI, PostgreSQL, Redis, SQLAlchemy, Alembic, React, Next.js, TypeScript, Tailwind CSS, shared contracts.
+
+Highlights: SSR/ISR-oriented SEO surface, city/state/profession pages, index/noindex logic, sitemap/indexation flows, vacancy lifecycle, company pages, reviews, admin operations.
+
+### Ride Telegram Mini App
+
+Private/team Telegram Mini App MVP for planned group rides with passenger, driver, and admin workflows, trip matching, assignments, live location, route previews, and admin dashboard.
+
+Stack: React, Vite, TypeScript, TanStack, Zustand, React Hook Form, NestJS, Fastify, PostgreSQL, Redis, Telegraf, WebSocket, MapLibre, Docker.
+
+Highlights: passenger trip creation, driver profiles, admin assignment flow, realtime gateway, self-hosted map stack, health endpoints, CI and Playwright lanes.
+
+### KidsWifi Router Automation
+
+Private/internal OpenWrt router-control system where parents manage a child's internet access policy through Telegram commands and natural-language AI parsing.
+
+Stack: Python, PostgreSQL, Supabase, OpenAI API, n8n, Telegram API, MQTT, paho-mqtt, Docker, pytest, Ruff, mypy.
+
+Highlights: Telegram to n8n to structured AI output to MQTT to router-agent to nftables firewall, schedule windows, daily limits, instant block/unblock, exceptions, status/statistics, contract validation.
+
+### Retail Shelf / Planogram AI MVP
+
+Accepted client sprint for an AI/retail audit MVP with Telegram/Supabase flow and manager dashboard.
+
+Stack: React, Tremor, Supabase, Edge Functions, RLS policies, Storage, Telegram session flow.
+
+Highlights: KPI dashboard, roles, tenant access, audit list/detail views, filters by period/store/SKU/auditor/status, shelf photos, GPS, planograms, Lost Sales, Share of Shelf, Out-of-Stock analytics.
+
+### Automation Business OS Layer
+
+Private automation project for an order/event business: Make to n8n migration, GoHighLevel CRM, email/order intake, Stripe payment flow, Supabase tracking, Telegram control layer, and AI/RAG-ready workflow architecture.
+
+Focus: controlled automation instead of fragile scripts, Dev/Prod separation, testing, cutover/rollback, logs, human approval, and safe AI draft generation.
+
+### Telegram Management System
+
+Public Telegram/backend operations platform with FastAPI, PostgreSQL, Redis, Celery workers, Telethon, Docker, React, and WebSocket UI.
+
+Repository: [vitalivo/Telegram-management-system](https://github.com/vitalivo/Telegram-management-system)
+
+### Marketplace / Payment Backend
+
+Public marketplace-style backend proof with auth, catalog/order/payment logic, PostgreSQL/PostGIS, Redis, Docker, and payment-service flow.
+
+Repository: [vitalivo/my-marketplace](https://github.com/vitalivo/my-marketplace)
 
 ---
 
-## 💼 What You Get When Working With Me
+## Public Repositories Worth Checking
 
-- Backend architecture built around real product workflows
-- Clean service logic instead of "just endpoints"
-- Stable integrations and operational visibility
-- Docker-first development and reproducible environments
-- Careful approach to claims, scope, and phased delivery
-- Tested code — unit tests where it matters, manual checklists where automation doesn't cover the user-facing flow
-- Ability to work hands-on solo or bring in trusted TEHNIKI support when the scope grows
+| Repository | What it demonstrates |
+|---|---|
+| [Telegram Management System](https://github.com/vitalivo/Telegram-management-system) | FastAPI, PostgreSQL, Redis, Celery, Telethon, Docker, React, operational Telegram workflows |
+| [my-marketplace](https://github.com/vitalivo/my-marketplace) | Marketplace/backend/payment flow, auth, PostgreSQL/PostGIS, Redis, Docker |
+| [TON Testnet Wallet](https://github.com/vitalivo/ton-wallet) | TypeScript wallet UI, TON SDK, transaction flow, address validation, tests |
+| [table_detector](https://github.com/vitalivo/table_detector) | Python CV prototype, YOLOv8, state-machine tracking, Docker, tests |
+| [video_analytics_bot](https://github.com/vitalivo/video_analytics_bot) | Telegram bot, PostgreSQL analytics, natural language to controlled SQL flow |
+| [testovoe-zadanie](https://github.com/vitalivo/testovoe-zadanie) | Async Python API, PostgreSQL, SQLAlchemy, Alembic, JWT/RBAC, Docker, webhook endpoint |
 
 ---
 
-## 📬 Currently Open To
+## Architecture Patterns I Use Often
 
-- Backend-heavy SaaS products
-- Telegram bots and Mini Apps
-- Internal operational systems
-- AI / Computer Vision products that need real backend logic around them
-- Crypto / Web3 integrations (wallets, trading bots, on-chain flows)
-- Contract work and long-term product development
+| Pattern | Why it matters |
+|---|---|
+| Explicit status lifecycles | Avoids hidden business logic and makes operations visible |
+| Role-based access and policy checks | Keeps admin/operator/client flows safe and maintainable |
+| Shared contracts and schemas | Reduces frontend/backend drift and makes AI/tool calls safer |
+| Background workers and retries | Keeps long-running tasks, integrations, and AI calls stable |
+| Audit events and operation logs | Makes production behavior explainable after launch |
+| Human approval for risky AI actions | Lets AI assist without silently changing critical data |
+| Phased delivery | Keeps MVP scope measurable before expanding the roadmap |
 
-**Contact:** vitalivo@gmail.com · Telegram: [@vitalivo](https://t.me/vitalivo)
+---
+
+## Portfolio Audit Snapshot
+
+An internal GitHub portfolio and technology audit was generated from repository metadata, language stats, README files, package manifests, Python manifests, Docker/CI configs, schemas, and safe repository structure analysis.
+
+Snapshot from the audit:
+
+| Metric | Result |
+|---|---:|
+| Repositories inspected | 129 |
+| Showcase-level projects | 17 |
+| Commercial / client-relevant repositories | 97 |
+| Public / private repositories | 93 / 36 |
+
+Detected stack areas include Python, TypeScript, JavaScript, React, Next.js, Vite, Tailwind CSS, FastAPI, Django, NestJS, Fastify, Express, PostgreSQL, Redis, Supabase, SQLAlchemy, Alembic, Drizzle ORM, Prisma, OpenAI API, Claude/Anthropic API, Telegram API, aiogram, Pyrogram, Telegraf, Docker, Docker Compose, GitHub Actions, pytest, Jest, Vitest, Playwright, and Testcontainers.
+
+---
+
+## How I Work
+
+I prefer to start with the real workflow, not the technology list.
+
+Before writing code, I usually clarify:
+
+- who uses the system;
+- what the core entity is;
+- which statuses matter;
+- which actions need approval;
+- which integrations can fail;
+- what must be logged;
+- what should be in the first MVP and what should wait.
+
+This keeps development practical: first a working core, then automation, analytics, AI, and scale.
+
+---
+
+## Background
+
+Before software engineering, I spent 20+ years managing real-world operations: teams, budgets, suppliers, schedules, quality, P&L, and daily execution. That background is useful in backend/product work because many software systems fail not in the code, but in unclear responsibility, missing statuses, poor handoff, and lack of operational visibility.
+
+---
+
+## Open To
+
+- Backend-heavy SaaS and product platforms
+- Telegram bots, Mini Apps, and backend-connected Telegram products
+- AI workflow systems and AI assistants inside business processes
+- CRM/ERP, internal tools, admin panels, and dashboards
+- SEO marketplaces, job boards, directories, and catalog platforms
+- Data pipelines, parsers, monitoring, and reporting systems
+- Architecture cleanup, stabilization, and phased MVP delivery
+
+Contact: `vitalivo@gmail.com`  
+Telegram: [@vitalivo](https://t.me/vitalivo)
