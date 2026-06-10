@@ -1,6 +1,6 @@
 # Vitaliy Voloshin
 
-Backend / AI Product Engineer focused on operational platforms, Telegram products, SEO marketplaces, automation systems, and data-heavy business tools.
+Backend / AI Product Engineer focused on operational platforms, Telegram products, CRM/ERP workflows, 1C/Bitrix24 integrations, SEO marketplaces, automation systems, and data-heavy business tools.
 
 I build systems where backend is not just endpoints: roles, statuses, workflows, payments, queues, admin panels, integrations, AI tools, logs, tests, and production support all matter.
 
@@ -16,6 +16,7 @@ Telegram: [@vitalivo](https://t.me/vitalivo)
 |---|---|
 | Backend / API platforms | FastAPI, Django/DRF, NestJS/Fastify, REST APIs, auth, webhooks, background jobs, admin workflows |
 | Operational systems | CRM/ERP-style tools, roles, statuses, finance flows, audit events, dashboards, internal business processes |
+| 1C / Bitrix24 / CRM integrations | 1C data exchange, Bitrix24 CRM setup, REST/webhooks, business processes, leads/deals/contacts, catalog/order/payment sync, CommerceML/XML/JSON exchange, logs, retries, error handling |
 | Telegram products | Telegram bots, Mini Apps, operational bots, notification systems, admin/control layers |
 | AI workflow systems | LLM APIs, structured output, tool/function calling, RAG-ready workflows, human review, AI assistants inside business processes |
 | SEO marketplaces | Job boards, directory platforms, SEO URL structure, sitemap/indexation logic, content lifecycle, structured data |
@@ -33,6 +34,7 @@ Telegram: [@vitalivo](https://t.me/vitalivo)
 | Frontend | React, Next.js, Vite, TypeScript, Tailwind CSS, TanStack Query/Router, Zustand, React Hook Form |
 | AI / automation | OpenAI API, Claude/Anthropic API, Gemini API, structured outputs, tool/function calling, agent workflows, n8n, Make.com |
 | Telegram | Telegram Bot API, Telegram Mini Apps, aiogram, Pyrogram, Telegraf, Telethon, realtime notifications |
+| Business automation / CRM | 1C, 1C-Bitrix, Bitrix24, Bitrix24 REST API, webhooks, business processes, CRM entities, catalogs, orders, payments, CommerceML/XML/JSON exchange, integration logs |
 | Data | PostgreSQL, Redis, Supabase, SQLAlchemy, Alembic, Drizzle ORM, Prisma, Zod contracts, BullMQ |
 | Background jobs | Celery, Redis Streams, queues, schedulers, retries, worker-based pipelines |
 | QA | pytest, Jest, Vitest, Playwright, Testcontainers, Ruff, mypy, manual scenario checklists |
@@ -51,6 +53,14 @@ Private/internal operations and CRM platform connecting clients, projects, devel
 Stack: TypeScript, React, Vite, Tailwind CSS, TanStack, Zustand, Node.js, NestJS, Fastify, PostgreSQL, Drizzle ORM, Zod contracts, Docker, GitHub Actions.
 
 Highlights: role-based workflows, finance tracking, conversation scanning, structured AI summaries, native tool/function calls, operation history, rollback for safe write actions, regression-oriented tests.
+
+### 1C / Bitrix24 Business Automation Projects
+
+Private/GitLab work around 1C-based business automation, Bitrix24 CRM setup, and data exchange between operational systems.
+
+Stack: 1C, Bitrix24, Bitrix24 REST API, 1C-Bitrix, XML/JSON exchange, CommerceML, webhooks, PostgreSQL/MySQL where needed, background jobs, logs, Linux/Docker for supporting services.
+
+Highlights: CRM pipelines, leads/deals/contacts flow, order/catalog/payment exchange, scheduled synchronization, manual retry flows, integration error logs, admin/operator visibility, phased delivery for legacy systems.
 
 ### SEO JobBoard Platform
 
@@ -160,6 +170,7 @@ Before software engineering, I spent 20+ years managing real-world operations: t
 - Backend-heavy SaaS and product platforms
 - Telegram bots, Mini Apps, and backend-connected Telegram products
 - AI workflow systems and AI assistants inside business processes
+- 1C, Bitrix24, 1C-Bitrix, CRM setup, and data exchange projects
 - CRM/ERP, internal tools, admin panels, and dashboards
 - SEO marketplaces, job boards, directories, and catalog platforms
 - Data pipelines, parsers, monitoring, and reporting systems
